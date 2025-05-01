@@ -28,13 +28,13 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
 
 ## **3.0 Ferramentas utilizadas**
 
-SQL: Utilizado para construção da bases de dados.
+- SQL: Utilizado para construção da bases de dados.
 
-Python: Utilizado para o processamento e modelagem dos dados, incluindo a criação dos modelos apriori e tratamento das bases segmentadas por hospital, operadora e tipo de glosa. É importante dizer que foi utilizado o ambiente Anaconda.
+- Python: Utilizado para o processamento e modelagem dos dados, incluindo a criação dos modelos apriori e tratamento das bases segmentadas por hospital, operadora e tipo de glosa. É importante dizer que foi utilizado o ambiente Anaconda.
 
-Agendador de Tarefas do Windows: Responsável pela automação da execução do script Python, garantindo que os modelos sejam atualizados de forma periódica e sem necessidade de intervenção manual.
+- Agendador de Tarefas do Windows: Responsável pela automação da execução do script Python, garantindo que os modelos sejam atualizados de forma periódica e sem necessidade de intervenção manual.
 
-Power BI: Ferramenta utilizada para a visualização e monitoramento dos resultados. Os dados processados são integrados ao painel para acompanhamento semanal das glosas, facilitando a análise e as correções de glosa.
+- Power BI: Ferramenta utilizada para a visualização e monitoramento dos resultados. Os dados processados são integrados ao painel para acompanhamento semanal das glosas, facilitando a análise e as correções de glosa.
 
 ## **4.0 Desenvolvimento**
 
