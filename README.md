@@ -48,7 +48,7 @@ A query construída foi chamada através da conexão com o banco de dados Oracle
 
 ### **4.2 Análise de Glosas com Regras de Associação (Apriori)**
 
-Este módulo aplica o algoritmo Apriori para identificar padrões recorrentes em glosas hospitalares. Ele analisa combinações frequentes de variáveis como tipo de despesa, setor, grupo e tipo de atendimento — por hospital, convênio e tipo de glosa — para apoiar ações estratégicas de auditoria e redução de glosas.
+O módulo modulo_apriori_hospital_recente.py aplica o algoritmo Apriori para identificar padrões recorrentes em glosas hospitalares. Ele analisa combinações frequentes de variáveis como tipo de despesa, setor, grupo e tipo de atendimento — por hospital, convênio e tipo de glosa — para apoiar ações estratégicas de auditoria e redução de glosas.
 
 Funcionalidades principais:
 
