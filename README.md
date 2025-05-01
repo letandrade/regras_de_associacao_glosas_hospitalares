@@ -18,9 +18,9 @@ Desenvolver modelos de regras de associação (Apriori) segmentados por hospital
 
 Foi implementada uma estrutura em loop, capaz de gerar automaticamente diferentes regras para cada combinação de hospital, operadora e tipo de glosa. Por exemplo:
 
-Para a base de dados 1, referente ao Hospital A, da Operadora B e do Tipo de Glosa C, foram identificados 50 regras.
+- Para a base de dados 1, referente ao Hospital A, da Operadora B e do Tipo de Glosa C, foram identificados 50 regras.
 
-Já para a base de dados 2, correspondente ao Hospital E, da Operadora F e do Tipo de Glosa G, foram identificados 100 regras.
+- Já para a base de dados 2, correspondente ao Hospital E, da Operadora F e do Tipo de Glosa G, foram identificados 100 regras.
 
 Essa rotina de criação dos modelos foi transformada em um processo automático, com a execução do script Python agendada por meio do Agendador de Tarefas do Windows, garantindo a atualização periódica dos dados sem necessidade de intervenção manual.
 
@@ -84,18 +84,14 @@ Funcionalidades principais:
 
 - Criação um arquivo .bat (executar_modulo_apriori_hospital_recente_loop.bat) responsável por executar o script Python de clusterização.
 
-- Organização dos arquivos necessários (modulo_clusterizacao_hospital_recente.py, modulo_clusterizacao_hospital_recente_loop.py, executar_cluster_apriori_recente.bat) em uma pasta dedicada dentro de um diretório de trabalho.
+- Organização dos arquivos necessários (modulo_apriori_hospital_recente.py, modulo_apriori_hospital_recente_loop.py, executar_modulo_apriori_hospital_recente_loop.bat) em uma pasta dedicada dentro de um diretório de trabalho.
 
 - Configurar uma nova tarefa no Agendador de Tarefas do Windows, definindo a execução automática com frequência semanal e fazer o apontamento para o arquivo .bat presente na pasta anterior. Caminho: Agendador de Tarefas > Criar tarefa < Ações < Novo. Preencha o campo Programa/Script com o caminho do arquivo .bat e o campo Iniciar em com o caminho da pasta com os arquivos. 
 
-<img width="468" alt="1" src="https://github.com/user-attachments/assets/4a555246-3694-43bd-85cb-2efd438a75d0" />
-
-<img width="497" alt="2" src="https://github.com/user-attachments/assets/cb72291a-3acd-4e0e-b3b2-6c6cdc886ed5" />
-
-- Ao final de cada execução, o script exporta um arquivo.csv (base_cluster_por_hospital.csv) contendo o empilhamento dos clusters gerados, armazenando-o no diretório especificado no código.
+- Ao final de cada execução, o script exporta um arquivo.csv (base_apriori_por_hospital.csv) contendo o empilhamento dos clusters gerados, armazenando-o no diretório especificado no código.
 
 - O tutorial a seguir esclarece de forma detalhada a implementação. https://medium.com/sucessoemvendasacademy/como-executar-scripts-de-python-de-forma-autom%C3%A1tica-e-recorrente-windows-867db62523bf
 
-### **4.5 Dashboard de Clusterização**
+### **4.5 Dashboard de Regras de Associação**
 
 ## **5.0 Resultados**
