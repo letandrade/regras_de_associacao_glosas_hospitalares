@@ -70,7 +70,7 @@ Funcionalidades principais:
 
 Funcionalidades principais:
 
-- Criação um arquivo .bat (executar_cluster_apriori_recente.bat) responsável por executar o script Python de clusterização.
+- Criação um arquivo .bat (executar_modulo_apriori_hospital_recente_loop.bat) responsável por executar o script Python de clusterização.
 
 - Organização dos arquivos necessários (modulo_clusterizacao_hospital_recente.py, modulo_clusterizacao_hospital_recente_loop.py, executar_cluster_apriori_recente.bat) em uma pasta dedicada dentro de um diretório de trabalho.
 
