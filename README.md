@@ -52,17 +52,17 @@ Este módulo aplica o algoritmo Apriori para identificar padrões recorrentes em
 
 Funcionalidades principais:
 
-- Conexão automatizada com banco Oracle e carregamento segmentado de dados
+- Conexão automatizada com banco Oracle e carregamento segmentado de dados.
 
-- Geração de regras de associação com o algoritmo Apriori
+- Geração de regras de associação com o algoritmo Apriori.
 
-- Cálculo de suporte, confiança e lift das regras
+- Cálculo de suporte, confiança e lift das regras.
 
-- Filtragem de regras redundantes
+- Filtragem de regras redundantes.
 
-- Inclusão automática do valor glosado, valor cobrado e índice de glosa por regra
+- Inclusão automática do valor glosado, valor cobrado e índice de glosa por regra.
 
-- Preparação de base finaanalítica para BI, auditoria e decisões de faturamento
+- Preparação de base finaanalítica para BI, auditoria e decisões de faturamento.
 
 ### **4.3 Módulo de execução de funções**
 
