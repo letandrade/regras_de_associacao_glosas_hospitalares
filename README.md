@@ -1,1 +1,1 @@
-# regras_de_associacao_glosas_hospitalares
+# Regras de Associação para Glosas Hospitalares
