@@ -46,7 +46,23 @@ A base de dados foi extraída de um banco de dados, esse script faz a seleção 
 
 A query construída foi chamada através da conexão com o banco de dados Oracle executada através da biblioteca cx_oracle.
 
-### **4.2 Módulo de Regras de Associação para Análise de Glosas Hospitalares**
+### **4.2 Análise de Glosas com Regras de Associação (Apriori)**
+
+Este módulo aplica o algoritmo Apriori para identificar padrões recorrentes em glosas hospitalares. Ele analisa combinações frequentes de variáveis como tipo de despesa, setor, grupo e tipo de atendimento — por hospital, convênio e tipo de glosa — para apoiar ações estratégicas de auditoria e redução de glosas.
+
+Funcionalidades principais:
+
+- Conexão automatizada com banco Oracle e carregamento segmentado de dados
+
+- Geração de regras de associação com o algoritmo Apriori
+
+- Cálculo de suporte, confiança e lift das regras
+
+- Filtragem de regras redundantes
+
+- Inclusão automática do valor glosado, valor cobrado e índice de glosa por regra
+
+- Preparação de base finaanalítica para BI, auditoria e decisões de faturamento
 
 ### **4.3 Módulo de execução de funções**
 
