@@ -48,5 +48,7 @@ A query construída foi chamada através da conexão com o banco de dados Oracle
 
 ### **4.2 Módulo de Regras de Associação para Análise de Glosas Hospitalares**
 
+### **4.3 Módulo de execução de funções**
+
 ### **4.4 Agendamento do script de loop no Windows**
 ## **5.0 Resultados**
