@@ -23,12 +23,12 @@ from modulo_apriori_hospital_recente import class_apriori
 
 # Declarando variáveis usadas para regras 
 
-convenios = ['CONVÊNIO A', 'CONVÊNIO B']
+convenios = ['CONVENIO A', 'CONVENIO B']
 
 hospitais = class_apriori.carrega_dataset_hospitais()
 hospitais = hospitais['HOSPITAL'].tolist()
 
-tipo_glosa = ['Codificação','Precificação']
+tipo_glosa = ['TIPO_GLOSA A','TIPO_GLOSA B']
 
 print('Variáveis importadas.')
 
@@ -60,8 +60,6 @@ for hospital in hospitais:
 base_apriori_df = pd.concat(base_apriori, ignore_index=True)
 
 #Substituindo valores em branco
-#base_apriori_df = base_apriori_df.fillna(value='vazio')
-#Substituindo valores em branco
 base_apriori_df = base_apriori_df.apply(lambda col: col.fillna('vazio') if col.dtype == 'object' else col)
 
 # Agora base_cluster_df é um único DataFrame com todos os dados empilhados
@@ -70,7 +68,7 @@ print(f'Tamanho de base_cluster: {len(base_apriori_df)}')  # Exibe a quantidade 
 
 
 # Ajustando o caminho base
-caminho_base = r"\\Fscorp05\monitoramento$\08.Desenvolvimento\03.Dashboards\Cluster_Apriori"
+caminho_base = r"\\08.Desenvolvimento\03.Dashboards\Cluster_Apriori"
 
 # Concatenando o nome do arquivo ao caminho base
 nome_do_arquivo_csv = f"{caminho_base}\\base_apriori_por_hospital.csv"
