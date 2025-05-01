@@ -40,7 +40,13 @@ Power BI: Ferramenta utilizada para a visualização e monitoramento dos resulta
 
 Todos os passos a seguir estão detalhados nos módulos e arquivos de texto em anexo.
 
+### **4.1 Construção da base de dados em SQL**
 
+A base de dados foi extraída de um banco de dados, esse script faz a seleção e tratamento de variáveis. 
+
+A query construída foi chamada através da conexão com o banco de dados Oracle executada através da biblioteca cx_oracle.
+
+### **4.2 Módulo de Regras de Associação para Análise de Glosas Hospitalares**
 
 
 ## **5.0 Resultados**
