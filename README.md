@@ -51,4 +51,7 @@ A query construída foi chamada através da conexão com o banco de dados Oracle
 ### **4.3 Módulo de execução de funções**
 
 ### **4.4 Agendamento do script de loop no Windows**
+
+### **4.5 Dashboard de Clusterização**
+
 ## **5.0 Resultados**
