@@ -66,6 +66,18 @@ Funcionalidades principais:
 
 ### **4.3 Módulo de execução de funções**
 
+O módulo modulo_apriori_hospital_recente_loop.py automatiza a geração de regras de associação para glosas hospitalares utilizando o algoritmo Apriori, aplicado a combinações específicas de hospitais, convênios e tipos de glosa.
+
+Funcionalidades principais:
+
+- Carregamento de dados de hospitais e combinações válidas (hospital, convênio, tipo de glosa).
+
+- Execução de um loop que aplica, para cada combinação válida, um processo de análise utilizando o algoritmo Apriori.
+
+- Armazenamento e concatenação dos resultados em um único DataFrame.
+
+- Tratamento de valores nulos e exportação dos resultados consolidados para um arquivo CSV.
+
 ### **4.4 Agendamento do script de loop no Windows**
 
 Funcionalidades principais:
