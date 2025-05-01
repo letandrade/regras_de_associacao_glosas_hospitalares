@@ -35,9 +35,7 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
 - Agendador de Tarefas do Windows: Responsável pela automação da execução do script Python, garantindo que os modelos sejam atualizados de forma periódica e sem necessidade de intervenção manual.
 
 - Power BI: Ferramenta utilizada para a visualização e monitoramento dos resultados. Os dados processados são integrados ao painel para acompanhamento semanal das glosas, facilitando a análise e as correções de glosa.
-
-![ChatGPT Image 1 de mai  de 2025, 16_12_10](https://github.com/user-attachments/assets/9c4b6ce3-65a5-474e-a43a-ccbb783af45e)
-
+  
 <img src="https://github.com/user-attachments/assets/9c4b6ce3-65a5-474e-a43a-ccbb783af45e" width="800"/>
 
 ## **4.0 Desenvolvimento**
