@@ -38,7 +38,7 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
 
 ![ChatGPT Image 1 de mai  de 2025, 16_12_10](https://github.com/user-attachments/assets/9c4b6ce3-65a5-474e-a43a-ccbb783af45e)
 
-<img src="https://github.com/user-attachments/assets/9c4b6ce3-65a5-474e-a43a-ccbb783af45e" width="400"/>
+<img src="https://github.com/user-attachments/assets/9c4b6ce3-65a5-474e-a43a-ccbb783af45e" width="800"/>
 
 ## **4.0 Desenvolvimento**
 
