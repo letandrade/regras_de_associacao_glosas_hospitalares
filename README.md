@@ -28,6 +28,8 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
 
 ## **3.0 Ferramentas utilizadas**
 
+![{1743A47F-6D12-4614-BA3F-4EF85A242CC9}](https://github.com/user-attachments/assets/47abe4fb-2bea-4475-a92d-91fc4a766908)
+
 - SQL: Utilizado para construção da bases de dados.
 
 - Python: Utilizado para o processamento e modelagem dos dados, incluindo a criação dos modelos apriori e tratamento das bases segmentadas por hospital, operadora e tipo de glosa. É importante dizer que foi utilizado o ambiente Anaconda.
@@ -36,10 +38,6 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
 
 - Power BI: Ferramenta utilizada para a visualização e monitoramento dos resultados. Os dados processados são integrados ao painel para acompanhamento semanal das glosas, facilitando a análise e as correções de glosa.
   
-<img src="https://github.com/user-attachments/assets/9c4b6ce3-65a5-474e-a43a-ccbb783af45e" width="800"/>
-
-![{1743A47F-6D12-4614-BA3F-4EF85A242CC9}](https://github.com/user-attachments/assets/47abe4fb-2bea-4475-a92d-91fc4a766908)
-
 ## **4.0 Desenvolvimento**
 
 Todos os passos a seguir estão detalhados nos módulos e arquivos de texto em anexo.
