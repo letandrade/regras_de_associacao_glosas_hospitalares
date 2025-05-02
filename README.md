@@ -38,6 +38,8 @@ Além disso, um painel no Power BI será alimentado com os resultados dessas an�
   
 <img src="https://github.com/user-attachments/assets/9c4b6ce3-65a5-474e-a43a-ccbb783af45e" width="800"/>
 
+![{1743A47F-6D12-4614-BA3F-4EF85A242CC9}](https://github.com/user-attachments/assets/47abe4fb-2bea-4475-a92d-91fc4a766908)
+
 ## **4.0 Desenvolvimento**
 
 Todos os passos a seguir estão detalhados nos módulos e arquivos de texto em anexo.
@@ -93,6 +95,10 @@ Funcionalidades principais:
 - Ao final de cada execução, o script exporta um arquivo.csv (base_apriori_por_hospital.csv) contendo o empilhamento dos clusters gerados, armazenando-o no diretório especificado no código.
 
 - O tutorial a seguir esclarece de forma detalhada a implementação. https://medium.com/sucessoemvendasacademy/como-executar-scripts-de-python-de-forma-autom%C3%A1tica-e-recorrente-windows-867db62523bf
+- 
+![apriori1](https://github.com/user-attachments/assets/b4deca53-6680-4a3c-b1b6-868f7ee87925)
+
+![apriori2](https://github.com/user-attachments/assets/50b6bdc1-f1ed-4ef6-919d-c1af908226a7)
 
 ### **4.5 Dashboard de Regras de Associação**
 
