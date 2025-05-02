@@ -100,8 +100,14 @@ Funcionalidades principais:
 
 ### **4.5 Dashboard de Regras de Associação**
 
+Funcionalidades principais:
+
+Importação do arquivo base_apriori_por_hospital.csv no Power BI desktop.
+Construção dos visuais.
+Criação dos slicers por hospital, convênio e tipo de glosa. Para cada chave são apresentadas as regras de associação criadas.
+
 ![{3B21F2FB-4A4B-403F-A702-2B4313AA969D}](https://github.com/user-attachments/assets/0f766d09-b631-4d3a-afcb-3cc99fba97f6)
 
-
-
 ## **5.0 Resultados**
+
+
