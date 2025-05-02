@@ -88,15 +88,15 @@ Funcionalidades principais:
 
 - Organização dos arquivos necessários (modulo_apriori_hospital_recente.py, modulo_apriori_hospital_recente_loop.py, executar_modulo_apriori_hospital_recente_loop.bat) em uma pasta dedicada dentro de um diretório de trabalho.
 
-- Configurar uma nova tarefa no Agendador de Tarefas do Windows, definindo a execução automática com frequência semanal e fazer o apontamento para o arquivo .bat presente na pasta anterior. Caminho: Agendador de Tarefas > Criar tarefa < Ações < Novo. Preencha o campo Programa/Script com o caminho do arquivo .bat e o campo Iniciar em com o caminho da pasta com os arquivos. 
+- Configurar uma nova tarefa no Agendador de Tarefas do Windows, definindo a execução automática com frequência semanal e fazer o apontamento para o arquivo .bat presente na pasta anterior. Caminho: Agendador de Tarefas > Criar tarefa < Ações < Novo. Preencha o campo Programa/Script com o caminho do arquivo .bat e o campo Iniciar em com o caminho da pasta com os arquivos.
+
+![apriori1](https://github.com/user-attachments/assets/b4deca53-6680-4a3c-b1b6-868f7ee87925)
+
+![apriori2](https://github.com/user-attachments/assets/50b6bdc1-f1ed-4ef6-919d-c1af908226a7)
 
 - Ao final de cada execução, o script exporta um arquivo.csv (base_apriori_por_hospital.csv) contendo o empilhamento dos clusters gerados, armazenando-o no diretório especificado no código.
 
 - O tutorial a seguir esclarece de forma detalhada a implementação. https://medium.com/sucessoemvendasacademy/como-executar-scripts-de-python-de-forma-autom%C3%A1tica-e-recorrente-windows-867db62523bf
-- 
-![apriori1](https://github.com/user-attachments/assets/b4deca53-6680-4a3c-b1b6-868f7ee87925)
-
-![apriori2](https://github.com/user-attachments/assets/50b6bdc1-f1ed-4ef6-919d-c1af908226a7)
 
 ### **4.5 Dashboard de Regras de Associação**
 
